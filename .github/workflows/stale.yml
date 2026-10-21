@@ -6,9 +6,6 @@ permissions:
 on:
   # For manual tests.
   workflow_dispatch:
-  schedule:
-    - cron: "30 20 * * *"
-
 jobs:
   stale:
 
